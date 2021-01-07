@@ -1,0 +1,16 @@
+[package]
+name = "geekbench-dist-rust"
+version = "0.1.0"
+authors = ["Krzysztof Kwiatkowski <kthateyo@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11.0"
+scraper = "0.12.0"
+plotly = "0.6.0"
+rusqlite = { version = "0.24.2", features = ["bundled"] }
+tokio = { version = "*", features = ["full"] }
+term_cursor = "0.2.1"
+clap = "3.0.0-beta.2"
